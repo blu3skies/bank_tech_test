@@ -22,8 +22,6 @@ date || credit || debit || balance
 10/01/2012 || 1000.00 || || 1000.00  
 
 
-
-
 #### Input Output table
 (can't make table because of pipes in output)
 
@@ -34,7 +32,6 @@ client deposits 500 on 01/03/2020
 output (print bank statment):  
 date || credit || debit || balance  
 01/03/2020 || 500.00 || || 500.00  
-
 
 ###### test 2:  
 input:  

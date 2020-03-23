@@ -10,6 +10,11 @@ Account.prototype.deposit = function(figure, date) {
   this.transactions.push(transaction)
 }
 
+Account.prototype.withdrawl = function(figure) {
+  this.balance -= figure
+}
+
+
 Account.prototype.printStatment = function() {
   return this.transactions[0]
 }
