@@ -24,10 +24,10 @@ date || credit || debit || balance
 
 #### Input Output table
 
-| Input                                |                              Output |
-| ------------------------------------ | ----------------------------------- |
-| client deposits 500 on 23/03/2020    | date || credit || debit || balance  |
-|                                      |  23/03/2020 || 500.00 || || 500.00  |
+| Input                                |                              Output  |
+| ------------------------------------ | ------------------------------------ |
+| client deposits 500 on 23/03/2020    | "date || credit || debit || balance" |
+|                                      | "23/03/2020 || 500.00 || || 500.00"  |
 
 
 ###### input                                    ###### output  
