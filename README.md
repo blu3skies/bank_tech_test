@@ -28,33 +28,33 @@ date || credit || debit || balance
 (can't make table because of pipes in output)
 
 ###### test 1:  
-input:
-client deposits 500 on 01/03/2020
+input:  
+client deposits 500 on 01/03/2020  
 
-output (print bank statment): 
-date || credit || debit || balance
-01/03/2020 || 500.00 || || 500.00
+output (print bank statment):  
+date || credit || debit || balance  
+01/03/2020 || 500.00 || || 500.00  
 
 
 ###### test 2:  
-input:
-client deposits 500 on 01/03/2020
-client deposits 1000 on 02/03/2020
+input:  
+client deposits 500 on 01/03/2020  
+client deposits 1000 on 02/03/2020  
 
-output (print bank statment): 
-date || credit || debit || balance
-01/03/2020 || 500.00 || || 500.00
-02/03/2020 || 1000.00 || || 1500.00
+output (print bank statment):  
+date || credit || debit || balance  
+01/03/2020 || 500.00 || || 500.00  
+02/03/2020 || 1000.00 || || 1500.00  
 
 ###### test 3:  
-input:
-client deposits 1000 on 02/03/2020
-client withdrawls 500 on 03/03/2020
+input:  
+client deposits 1000 on 02/03/2020  
+client withdrawls 500 on 03/03/2020  
 
-output (print bank statment): 
-date || credit || debit || balance
-02/03/2020 || 1000.00 || || 1000.00
-03/03/2020 || || 500.00 || 500.00
+output (print bank statment):   
+date || credit || debit || balance  
+02/03/2020 || 1000.00 || || 1000.00  
+03/03/2020 || || 500.00 || 500.00  
 
 
 
