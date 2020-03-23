@@ -54,7 +54,7 @@ client withdrawls 500 on 03/03/2020
 output (print bank statment):   
 date || credit || debit || balance  
 02/03/2020 || 1000.00 || || 1000.00  
-03/03/2020 || || 500.00 || 500.00  
+03/03/2020 || || 500.00 || 500.00 
 
 
 
