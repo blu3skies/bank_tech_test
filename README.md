@@ -30,6 +30,7 @@ date || credit || debit || balance
 |                                      | "23/03/2020 || 500.00 || || 500.00"  |
 
 
+
 ###### input                                    ###### output  
 client deposits 500 on 23/03/2020               date || credit || debit || balance  
                                                 23/03/2020 || 500.00 || || 500.00
