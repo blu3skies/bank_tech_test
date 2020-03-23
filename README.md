@@ -20,3 +20,17 @@ date || credit || debit || balance
 14/01/2012 || || 500.00 || 2500.00  
 13/01/2012 || 2000.00 || || 3000.00  
 10/01/2012 || 1000.00 || || 1000.00  
+
+
+#### Input Output table
+
+###### input                                    ###### output  
+client deposits 500 on 23/03/2020               date || credit || debit || balance  
+                                                23/03/2020 || 500.00 || || 500.00
+
+
+
+
+### possible edgecases 
+
+clients maxes out account
