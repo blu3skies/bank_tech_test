@@ -23,5 +23,4 @@ describe("Account", function() {
     expect(account.balance).toEqual(3.00)
   }) 
 
-
 })

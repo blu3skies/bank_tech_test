@@ -21,6 +21,15 @@ date || credit || debit || balance
 13/01/2012 || 2000.00 || || 3000.00  
 10/01/2012 || 1000.00 || || 1000.00  
 
+## approach to the challenge
+
+I began by write out a rough plan and suggested test that would appear. I used a TDD approach with a 'red, green, refactor' cycle refactoring after every test.
+
+Keeping the code as minimal and clear as possible. I decided to use two classes. Account and PrintStatement. 
+The Account class deals with deposits, withdrawals, keeping track of balance and transaction history. 
+The PrintStatment took in an argument of an account and used its history to print out an accurate bank statment.
+
+
 
 ### possible edgecases 
 
