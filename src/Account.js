@@ -15,11 +15,4 @@ Account.prototype.withdrawl = function(figure, date) {
   this.transactions.push(transaction)
 }
 
-Account.prototype.printStatment = function() {
-  var statement = "date || credit || debit || balance\n"
-  var i;
-  for (i = this.transactions.length - 1; i >= 0 ; i--) {
-    statement +=  (this.transactions[i] + "\n")
-  };
-  return statement
-}
+
