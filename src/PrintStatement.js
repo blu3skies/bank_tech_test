@@ -22,10 +22,3 @@ PrintStatement.prototype.printHeaders = function() {
   console.log(headers);
   return headers;
 };
-
-
-'date || credit || debit || balance 02/03/2020 || || 500.00 || 500.00 01/03/2020 || 1000.00 || || 1000.00'
-'date || credit || debit || balance 02/03/2020 || || 500.00 || 500.00 01/03/2020 || 1000.00 || || 1000.00'
-
-'date || credit || debit || balance 01/03/2020 || 500.00 || || 500.00'
-'date || credit || debit || balance 01/03/2020 || 500.00 || || 500.00'

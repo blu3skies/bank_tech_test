@@ -14,5 +14,3 @@ Account.prototype.withdrawl = function(figure, date) {
   var transaction = [`\ ${date} || || ${figure.toFixed(2)} || ${this.balance.toFixed(2)}`]
   this.transactions.push(transaction)
 }
-
-
