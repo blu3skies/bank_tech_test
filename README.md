@@ -65,4 +65,4 @@ Everything required to run Jasmine is within the lib folder. You just need to op
 
 ## example screen shot
 Inline-style: 
-![alt text](https://github.com/blu3skies/bank_tech_test/images/example.jpg "Logo Title Text 1")
+![alt text](https://github.com/blu3skies/bank_tech_test/blob/master/images/example.jpg "Logo Title Text 1")
