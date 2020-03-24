@@ -7,6 +7,7 @@ PrintStatement.prototype.statement = function() {
   return this.printHeaders() + this.printHistory()
 }
 
+
 PrintStatement.prototype.printHistory = function() {
   var statement = ""
   var i;

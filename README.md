@@ -21,40 +21,10 @@ date || credit || debit || balance
 13/01/2012 || 2000.00 || || 3000.00  
 10/01/2012 || 1000.00 || || 1000.00  
 
-#### Input Output table
-(can't make table because of pipes in output)
-
-###### test 1:  
-input:  
-client deposits 500 on 01/03/2020  
-
-output (print bank statment):  
-date || credit || debit || balance  
-01/03/2020 || 500.00 || || 500.00  
-
-###### test 2:  
-input:  
-client deposits 500 on 01/03/2020  
-client deposits 1000 on 02/03/2020  
-
-output (print bank statment):  
-date || credit || debit || balance  
-01/03/2020 || 500.00 || || 500.00  
-02/03/2020 || 1000.00 || || 1500.00  
-
-###### test 3:  
-input:  
-client deposits 1000 on 02/03/2020  
-client withdrawls 500 on 03/03/2020  
-
-output (print bank statment):   
-date || credit || debit || balance  
-02/03/2020 || 1000.00 || || 1000.00  
-03/03/2020 || || 500.00 || 500.00 
 
 ### possible edgecases 
 
-clients maxes out account
+client can't max out there account
 
 ## How to run
 
@@ -64,5 +34,4 @@ To run the app, open bank.html in your browser
 Everything required to run Jasmine is within the lib folder. You just need to open SpecRunner.html in your browser to run the tests.
 
 ## example screen shot
-Inline-style: 
 ![alt text](https://github.com/blu3skies/bank_tech_test/blob/master/images/example.jpg "Logo Title Text 1")

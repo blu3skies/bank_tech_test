@@ -9,8 +9,12 @@ Account.prototype.deposit = function(figure, date) {
   this.transactions.push(transaction)
 }
 
-Account.prototype.withdrawl = function(figure, date) {
+Account.prototype.withdrawal = function(figure, date) {
+  if(figure > this.balance) {
+    throw new Error("insufficient funds");
+  } else {
   this.balance -= figure
   var transaction = [`\ ${date} || || ${figure.toFixed(2)} || ${this.balance.toFixed(2)}`]
   this.transactions.push(transaction)
+  }
 }
