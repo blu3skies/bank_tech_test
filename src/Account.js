@@ -1,7 +1,6 @@
 function Account () {
   this.balance = 0
   this.transactions = []
-
 }
 
 Account.prototype.deposit = function(figure, date) {
@@ -16,7 +15,6 @@ Account.prototype.withdrawl = function(figure, date) {
   this.transactions.push(transaction)
 }
 
-
 Account.prototype.printStatment = function() {
   var statement = "date || credit || debit || balance\n"
   var i;
@@ -25,4 +23,3 @@ Account.prototype.printStatment = function() {
   };
   return statement
 }
-
